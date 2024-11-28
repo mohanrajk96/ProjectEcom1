@@ -1,0 +1,10 @@
+Base\SeleniumBase.class
+Utils\DataLibrary.class
+Base\ProjectSpecificMethods.class
+Pages\TS006_OrdersPage.class
+Pages\TS002_AddProductToCart.class
+Utils\Reporter.class
+Pages\TS001_LoginPage.class
+Pages\TS003_MyCart.class
+Pages\TS004_CheckOut.class
+Pages\TS005_ConfirmationPage.class

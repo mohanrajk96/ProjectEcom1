@@ -1,0 +1,6 @@
+Tests\TC006_OrdersPageTest.class
+Tests\TC004_CheckOutTest.class
+Tests\TC002_AddProductToCartTest.class
+Tests\TC005_ConfirmationPageTest.class
+Tests\TC001_LoginPageTest.class
+Tests\TC003_MyCartTest.class

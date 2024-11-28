@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+	<test thread-count="5" name="Login">
+		<classes>
+<class name="Tests.TC001_LoginPageTest" />
+
+		</classes>
+	</test>
+	<test thread-count="5" name="Add To Cart">
+		<classes>
+			<class name="Tests.TC002_AddProductToCartTest" />
+			
+		</classes>
+	</test> 
+	<test thread-count="5" name="Cart">
+		<classes>
+			
+			<class name="Tests.TC003_MyCartTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Check out">
+		<classes>
+			
+			<class name="Tests.TC004_CheckOutTest" />
+			
+		</classes>
+	</test>
+	<test thread-count="5" name="Confirmation">
+		<classes>
+			
+			<class name="Tests.TC005_ConfirmationPageTest" />
+			
+		</classes>
+	</test> 
+	<test thread-count="5" name="Confirmation">
+		<classes>
+			
+			<class name="Tests.TC006_OrdersPageTest" />
+			
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
